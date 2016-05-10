@@ -557,6 +557,8 @@ Runner.prototype = {
       this.tRex.update(deltaTime);
       this.raq();
     }
+
+    console.log('TRex: ', this.tRex);
   },
 
   /**
@@ -2435,6 +2437,8 @@ Horizon.prototype = {
       // Create new obstacles.
       this.addNewObstacle(currentSpeed);
     }
+
+    console.log('Obstacles: ', this.obstacles);
   },
 
   /**
